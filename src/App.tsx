@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { BarChart3 } from 'lucide-react';
 import Dashboard from './pages/Dashboard';
 import Analytics from './pages/Analytics';
@@ -7,7 +7,7 @@ import './App.css';
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
