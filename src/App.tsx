@@ -42,7 +42,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Dashboard />} />
         <Route path="/analytics" element={<Analytics />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
