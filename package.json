@@ -1,7 +1,8 @@
 {
-  "name": "smart-expense-tracker",
+  "name": "walletly",
   "version": "0.1.0",
   "type": "module",
+  "homepage": "https://jolinajavier02.github.io/SET/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

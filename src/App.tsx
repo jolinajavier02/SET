@@ -17,7 +17,7 @@ const App: React.FC = () => {
               className="flex items-center gap-2 text-primary font-bold text-xl hover:text-blue-600"
             >
               <BarChart3 size={24} />
-              SET
+              Walletly
             </Link>
             <div className="flex gap-4">
               <Link

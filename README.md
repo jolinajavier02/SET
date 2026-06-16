@@ -1,4 +1,4 @@
-# Smart Expense Tracker (SET)
+# Walletly
 
 A modern, responsive web application for tracking income and expenses with advanced filtering, search, and analytics capabilities.
 

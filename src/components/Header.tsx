@@ -5,7 +5,7 @@ interface HeaderProps {
   title?: string;
 }
 
-const Header: React.FC<HeaderProps> = ({ title = 'Smart Expense Tracker' }) => {
+const Header: React.FC<HeaderProps> = ({ title = 'Walletly' }) => {
   return (
     <header className="bg-gradient-to-r from-primary to-blue-600 text-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
