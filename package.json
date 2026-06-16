@@ -2,14 +2,16 @@
   "name": "walletly",
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://jolinajavier02.github.io/SET/",
+  "homepage": "https://jolinajavier02.github.io/Walletly/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -29,6 +31,7 @@
     "autoprefixer": "^10.4.16",
     "vitest": "^1.0.4",
     "@testing-library/react": "^14.1.2",
-    "@testing-library/jest-dom": "^6.1.5"
+    "@testing-library/jest-dom": "^6.1.5",
+    "gh-pages": "^5.0.0"
   }
 }
